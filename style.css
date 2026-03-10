@@ -420,6 +420,18 @@ section:nth-child(even) {
   border-color: rgba(251, 188, 4, 0.3);
 }
 
+.work-tag--duration {
+  background-color: rgba(66, 133, 244, 0.15);
+  color: #4285f4;
+  border-color: rgba(66, 133, 244, 0.3);
+}
+
+.work-tag--members {
+  background-color: rgba(234, 67, 53, 0.15);
+  color: #ea4335;
+  border-color: rgba(234, 67, 53, 0.3);
+}
+
 .work-github-link {
   display: inline-block;
   margin-top: 12px;
@@ -648,6 +660,14 @@ section:nth-child(even) {
   aspect-ratio: 16 / 9;
   background-color: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
+}
+
+.work-card-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--color-border);
+  display: block;
 }
 
 /* =====================
