@@ -707,6 +707,10 @@ section:nth-child(even) {
     font-size: 2.2rem;
   }
 
+  .hero-name-en {
+    font-size: 0.75rem;
+  }
+
   .hero-content {
     flex-direction: column;
     align-items: flex-start;
