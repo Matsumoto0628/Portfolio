@@ -245,6 +245,14 @@ section:nth-child(even) {
   letter-spacing: -0.02em;
 }
 
+.hero-name-en {
+  font-size: 1.2rem;
+  color: var(--color-text-muted);
+  letter-spacing: 0.08em;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
 .hero-subtitle {
   font-size: 1rem;
   color: var(--color-text-muted);
